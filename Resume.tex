@@ -1,4 +1,5 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper, 8pt]{article}
+\usepackage[a4paper, left=20mm, right=10mm, top=20mm, bottom=20mm]{geometry}
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage[utf8]{inputenc}
@@ -6,62 +7,71 @@
 \definecolor{linkcolor}{HTML}{799B03} 
 
 %opening
-\title{\huge Резюме}
+\title{\Huge Резюме}
 \author{\Huge Тюльбашев Владислав Сергеевич}
 
 \begin{document}
 \maketitle
-\section{Основные достижения} {
-    \subsection{Призер всероссийской олимпиады школьников по программированию 2012(23 место)}{}
-    \subsection{Призер всероссийской олимпиады школьников по программированию 2013(22 место)}{}
+\section{Олимпиадные достижения} {
+	Призер всероссийской олимпиады школьников по программированию 2012(23 место) \newline
+	Призер всероссийской олимпиады школьников по программированию 2013(22 место)
 }
-\section{Публикации} {
-    \subsection{\href{http://habrahabr.ru/post/185770/}{QLiveBittorrent}}{}
-    \subsection{\href{http://habrahabr.ru/post/177807/}{Labyrus}}{}
+
+\section{Последний проект} {
+	\href{https://blog.vtyulb.ru/projects/BSA-Analytics}{BSA-Analytics} - программа для обработки данных с 
+	Пущинского телескопа BSA. С помощью программы были найдено 9 пульсаров, опубликованы 3 статьи.
+	\subsection{Астрономический журнал} {\href{http://adsabs.harvard.edu/abs/2016ARep...60..220T}{Поиск пульсаров на 111МГц} }
+	\subsection{Астрономический циркуляр} {
+		\href{http://comet.sai.msu.ru/~gmr/AC/AC1624.pdf}{Открытие новых пульсаров на радиотелескопе БСА ФИАН I} \newline
+		\href{http://comet.sai.msu.ru/~gmr/AC/AC1625.pdf}{Открытие новых пульсаров на радиотелескопе БСА ФИАН II}
+	}
 }
+
+\section{Публикации на хабре} {
+    \href{http://habrahabr.ru/post/185770/}{QLiveBittorrent} \newline
+    \href{http://habrahabr.ru/post/177807/}{Labyrus}
+}
+
 \section{Образование} {
-    \bfseries
     Общее среднее (полное) - СУНЦ МГУ.
-    Сейчас поступил на ВМК (1 курс).
+    Сейчас учусь на ВМК (4 курс).
 }
-\section{Технологии} {
-    \subsection{Pascal}{}
-    \subsection{C, C++}{}
-    \subsection{latex}
-    \subsection{brainfuck}
-    \subsection{Qt}{}{}
-    \subsection{OpenGl}{}
-    \subsection{FUSE}{}
-    \subsection{libtorrent-rasterbar}{}
-    \subsection{Навыки установки и администрирования операционных систем семейств Windows, Linux, в особенности ArchLinux.}{}
-    \subsection{VirtualBox}{}
-    \subsection{Алгоритмы}{
-	\subsubsection{Динамическое программирование}{}
-	\subsubsection{Графы}{Обход в ширину, поиск в глубину, Дейкстра, Флойд, Форд-Беллман,
-	    \paragraph{Каркасы}{Алгоритм краскала, Алгоритм Прима}
-	    \paragraph{Потоки}{Форд-Фалкерсон, Диница, масштабирование}
-	}
-	\subsubsection{Структуры данных}{
-	    \paragraph{Дерево отрезков}{}
-	    \paragraph{Дерево фенвика(в том числе многомерное)}{}
-	    \paragraph{Декартого дерево}{}
-	    \paragraph{Сплей-дерево}{}
-	    \paragraph{Куча, очередь, стэк, дек}{}
-	    \paragraph{Персистентные}{Все то же самое, но персистентное, за исключением сплей-дерева, дерева фенвика, кучи.}
-	}
-	\subsubsection{Прочие сложные и не очень алгоритмы}{sqrt-декомпозиция, разбор~выражений, длинная~арифметика, 
-			суффиксный~массив, Z-функция, префикс-функция, поиск~мостов~и~точек~сочленения, теория~игр, 
-			вычислительная~геометрия, LCA}
-    }
+
+%\section{Технологии} {
+%    \subsection{Pascal}{}
+%    \subsection{C, C++}{}
+%    \subsection{latex}
+%    \subsection{brainfuck}
+%    \subsection{Qt}{}{}
+%    \subsection{OpenGl}{}
+%    \subsection{FUSE}{}
+%    \subsection{libtorrent-rasterbar}{}
+%    \subsection{Навыки установки и администрирования операционных систем семейств Windows, Linux, в особенности ArchLinux.}{}
+%    \subsection{VirtualBox}{}
+%    \subsection{Алгоритмы}{
+%	\subsubsection{Динамическое программирование}{}
+%	\subsubsection{Графы}{Обход в ширину, поиск в глубину, Дейкстра, Флойд, Форд-Беллман,
+%	    \paragraph{Каркасы}{Алгоритм краскала, Алгоритм Прима}
+%	    \paragraph{Потоки}{Форд-Фалкерсон, Диница, масштабирование}
+%	}
+%	\subsubsection{Структуры данных}{
+%	    \paragraph{Дерево отрезков}{}
+%	    \paragraph{Дерево фенвика(в том числе многомерное)}{}
+%	    \paragraph{Декартого дерево}{}
+%	    \paragraph{Сплей-дерево}{}
+%	    \paragraph{Куча, очередь, стэк, дек}{}
+%	    \paragraph{Персистентные}{Все то же самое, но персистентное, за исключением сплей-дерева, дерева фенвика, кучи.}
+%	}
+%	\subsubsection{Прочие сложные и не очень алгоритмы}{sqrt-декомпозиция, разбор~выражений, длинная~арифметика, 
+%			суффиксный~массив, Z-функция, префикс-функция, поиск~мостов~и~точек~сочленения, теория~игр, 
+%			вычислительная~геометрия, LCA}
+%    }
+%}
+
+\section{Контакты}{
+    \href{http://habrahabr.ru/users/vtyulb/}{habrahabr} \newline
+    \href{https://github.com/vtyulb}{github} \newline
+    \textbf{<vtyulb@vtyulb.ru>}
 }
-\section{Аккаунты}{
-    \subsection{habrahabr.ru}{\href{http://habrahabr.ru/users/vtyulb/}{vtyulb}}
-    \subsection{Почта}{vladislav.tyulbashev@yandex.ru}
-    \subsection{github.com}{\href{https://github.com/vtyulb}{vtyulb}}
-}
-\begin{figure}[b]
-    \centering
-    Данный текст свёрстан с использованием системы \LaTeX.
-\end{figure}
 
 \end{document}
